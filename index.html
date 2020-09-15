@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forma</title>
+</head>
+<body>
+	<form>
+		<h1>Duomenų informacija</h1>
+		<label>El. pašto adresas:*<input type="text" name="01" required></label><br>
+		<label>Slaptažodis:*<input type="text" name="02" required></label><br>
+		<label>Patvirtinti slaptažodį:*</label><input type="text" name="03" required><br>
+		<label><input type="checkbox" name="04" required>Sutinku su <a href="">taisyklėmis</a></label>
+		<h2>Pasitikrinkite sąskaitos adresą</h2>
+		<label>Lytis *</label>
+			<select name="lytis">
+				<option value="Moteris">Moteris</option>
+				<option value="Vyras">Vyras</option>
+			</select>
+		<br>
+		<label>Vardas:*<input type="text" name="06" required></label><br>
+		<label>Pavardė:*<input type="text" name="07" required></label><br>
+		<label>Gatvė, namo(buto)nr.:*<input type="text" name="08" required><input type="text" name="08_1" required></label><br>
+		<label>Pašto kodas:*<input type="text" name="09" required><a href="">Pašto kodų paieška</a></label><br>
+		<label>Miestas:*<input type="text" name="10" required></label><br>
+		<label>Šalis:*
+			<select name="Šalis">
+				<option value="">-</option>
+				<option value="LT">Lietuva</option>
+			</select>
+		</label><br>
+		<label>Telefonas*:<input type="telno" name="12" required></label><br>
+		<label>Papildoma informacija:<input type="text" name="13"></label><br>
+		<label>Prašome užpildyti visus pažymėtus laukus *</label><br>
+		<label><input type="Submit" name="14" value="Registruotis"></label>
+	</form>
+</body>
+</html>
